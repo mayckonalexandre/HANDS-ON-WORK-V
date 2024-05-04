@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rating {
+  display: inline-block;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 2em;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.rating input:checked ~ label {
+  color: #f90;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+  color: #fc0;
+}
