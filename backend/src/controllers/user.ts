@@ -4,6 +4,7 @@ import { user } from "../services/user";
 import { userRepostitory } from "../repositories/user";
 import { usefulForAuthentication } from "../services/util";
 
+//class para autenticação, valida os dados da requisição e passa para class para autenticação
 export class UserController {
   async authenticate(req: Request, res: Response) {
     const schemaAuthenticate = z.object({

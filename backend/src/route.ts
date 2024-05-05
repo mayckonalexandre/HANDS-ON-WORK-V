@@ -13,14 +13,17 @@ import path from "path";
 import fs from "fs";
 import { Produto } from "./entity/products";
 import { ErrorCustom } from "./middleware/error";
+import { checkToken } from "./middleware/check-token";
 
 export const router = Router();
 
 const userController = new UserController();
 const controllerProducts = new productsController();
 
+//rota para autenticação
 router.post("/auth", userController.authenticate);
 
+//rota para criar usuario
 router.post("/auth/create", async (req: Request, res: Response) => {
   const schema = z.object({
     nome: z.string().trim(),
@@ -44,38 +47,16 @@ router.post("/auth/create", async (req: Request, res: Response) => {
   return res.status(201).json({ id: newUser.id });
 });
 
-router.post("/auth/record", async (req: Request, res: Response) => {
-  const schemaRegisterUser = z.object({
-    nome: z.string().trim(),
-    email: z.string().email().trim(),
-    password: z.string().trim(),
-  });
-
-  const { nome, email, password } = schemaRegisterUser.parse(req.body);
-
-  const hashPassword = await usefulForAuthentication.generateHashPassword(
-    password
-  );
-
-  const newUser = await myDataSource.getRepository(Usuario).save({
-    nome,
-    email,
-    password: hashPassword,
-    ativo: 1,
-    permissoes: "user",
-    cadastrado: moment().format("YYYYMMDD - HH:MM"),
-  });
-
-  return res.status(201).json({ id: newUser.id });
-});
-
+//rota para obter os produtos ativos
 router.get("/products", controllerProducts.getAllProductsActive);
 
-router.get("/products/all", async (req: Request, res: Response) => {
+//rota para obter todos os produtos
+router.get("/products/all", checkToken, async (req: Request, res: Response) => {
   const products = await myDataSource.getRepository(Produto).find();
   return res.status(200).json(products ?? null);
 });
 
+//rota para obter o produto pelo ID
 router.get("/product", async (req: Request, res: Response) => {
   const schema = z.object({
     id: z.string().trim(),
@@ -90,13 +71,15 @@ router.get("/product", async (req: Request, res: Response) => {
 
   const product = await myDataSource
     .getRepository(Produto)
-    .findOne({ where: { id: transformID, ativo: 1 } });
+    .findOne({ where: { id: transformID } });
 
   return res.status(200).json(product);
 });
 
+//rota para cadastrar produto
 router.post(
   "/product",
+  checkToken,
   multerConfig.single("file"),
   async (req: Request, res: Response) => {
     const schema = z.object({
@@ -152,7 +135,8 @@ router.post(
   }
 );
 
-router.put("/product", async (req: Request, res: Response) => {
+//rota para alterar dados do produto
+router.put("/product", checkToken, async (req: Request, res: Response) => {
   const schema = z.object({
     id: z.number(),
     nome: z.string().trim().min(1, { message: "O campo deve ser preenchido." }),
@@ -202,6 +186,7 @@ router.put("/product", async (req: Request, res: Response) => {
   return res.status(200).json({ message: "Produto atualizado com sucesso." });
 });
 
+//rota para obter marcas
 router.get("/brands", async (req: Request, res: Response) => {
   const brands = await myDataSource
     .getRepository(Marcas)
@@ -209,7 +194,8 @@ router.get("/brands", async (req: Request, res: Response) => {
   return res.status(200).json(brands ?? null);
 });
 
-router.post("/brand", async (req: Request, res: Response) => {
+//rota para cadastrar marcas
+router.post("/brand", checkToken, async (req: Request, res: Response) => {
   const schema = z.object({
     nome: z.string().trim().min(1, { message: "O campo deve ser preenchido." }),
     ativo: z.string().transform((value) => Number(value)),
@@ -226,30 +212,35 @@ router.post("/brand", async (req: Request, res: Response) => {
   return res.status(201).json(brand.id);
 });
 
-router.put("/product/active", async (req: Request, res: Response) => {
-  const schema = z.object({
-    id: string()
-      .trim()
-      .transform((value) => Number(value)),
-  });
+//rota para ativar/desativar produto
+router.put(
+  "/product/active",
+  checkToken,
+  async (req: Request, res: Response) => {
+    const schema = z.object({
+      id: string()
+        .trim()
+        .transform((value) => Number(value)),
+    });
 
-  const { id } = schema.parse(req.query);
+    const { id } = schema.parse(req.query);
 
-  const productRepository = myDataSource.getRepository(Produto);
+    const productRepository = myDataSource.getRepository(Produto);
 
-  const product = await productRepository.findOneBy({ id });
+    const product = await productRepository.findOneBy({ id });
 
-  if (!product) return res.json({ message: "Produto não encontrado." });
+    if (!product) return res.json({ message: "Produto não encontrado." });
 
-  product.ativo = product.ativo === 1 ? 0 : 1;
+    product.ativo = product.ativo === 1 ? 0 : 1;
 
-  console.log(product.ativo);
+    console.log(product.ativo);
 
-  await productRepository.save(product);
+    await productRepository.save(product);
 
-  return res.status(200).json({
-    message: `Produto alteado para ${
-      product.ativo === 1 ? "Ativo" : "Desativado"
-    }`,
-  });
-});
+    return res.status(200).json({
+      message: `Produto alteado para ${
+        product.ativo === 1 ? "Ativo" : "Desativado"
+      }`,
+    });
+  }
+);

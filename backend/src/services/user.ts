@@ -2,6 +2,8 @@ import { ErrorCustom } from "../middleware/error";
 import { IUserRepository } from "../repositories/interface";
 import { IUsefulForAuthentication } from "./interfaces";
 
+//Função para autenticar o usuario
+
 export class user {
   constructor(
     private readonly userRepository: IUserRepository,

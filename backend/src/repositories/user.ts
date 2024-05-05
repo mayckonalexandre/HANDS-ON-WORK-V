@@ -2,6 +2,7 @@ import { myDataSource } from "../config/db/db";
 import { Usuario } from "../entity/user";
 import { IUserRepository } from "./interface";
 
+//Class para interagir com a entidade User
 class UserRepostitory implements IUserRepository {
   async getUserById(id: number) {
     return await myDataSource

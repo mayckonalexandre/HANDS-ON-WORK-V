@@ -4,6 +4,7 @@ import { Produto } from "../../entity/products";
 import { Marcas } from "../../entity/brands";
 import { Avaliacoes } from "../../entity/assessments";
 
+//Config para conexão com o banco de dados
 export const myDataSource = new DataSource({
   type: "mysql",
   host: "localhost",

@@ -10,6 +10,7 @@ export class ErrorCustom extends Error {
   }
 }
 
+//Função que vai capturar o erro durante a execução da aplicação
 export const errorMiddleware = (
   err: (Error & Partial<ErrorCustom>) | any,
   req: Request,

@@ -1,7 +1,8 @@
 "use server";
 
 import { schemaUpdateProduct } from "@/app/(admin-routes)/admin/product/[id]/update";
-import { schemaNewProducts } from "@/app/(admin-routes)/admin/product/newProduct";
+import { nextAuthOptions } from "@/config/auth";
+import { getServerSession } from "next-auth";
 import { revalidatePath } from "next/cache";
 
 export type IResponse = {
@@ -16,8 +17,16 @@ export async function getProducts() {
 }
 
 export async function getAllProducts() {
+  const session = await getServerSession(nextAuthOptions);
+
   return await (
-    await fetch("http://localhost/api/products/all", { cache: "no-cache" })
+    await fetch("http://localhost/api/products/all", {
+      cache: "no-cache",
+      headers: {
+        Authorization: `Bearer ${session?.token}`,
+        "Content-Type": "application/json",
+      },
+    })
   ).json();
 }
 
@@ -32,10 +41,12 @@ export async function createNewBrand(data: {
   ativo: string;
 }): Promise<IResponse> {
   try {
+    const session = await getServerSession(nextAuthOptions);
     const response = await fetch("http://localhost/api/brand", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        Authorization: `Bearer ${session?.token}`,
       },
       body: JSON.stringify({
         nome: data.nome,
@@ -60,8 +71,12 @@ export async function createNewBrand(data: {
 
 export async function createNewProduct(data: FormData) {
   try {
+    const session = await getServerSession(nextAuthOptions);
     const response = await fetch("http://localhost/api/product", {
       method: "POST",
+      headers: {
+        Authorization: `Bearer ${session?.token}`,
+      },
       body: data,
     });
 
@@ -83,10 +98,12 @@ export async function createNewProduct(data: FormData) {
 
 export async function updateProduct(data: schemaUpdateProduct) {
   try {
+    const session = await getServerSession(nextAuthOptions);
     const response = await fetch("http://localhost/api/product/", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
+        Authorization: `Bearer ${session?.token}`,
       },
       body: JSON.stringify(data),
     });
@@ -104,12 +121,14 @@ export async function updateProduct(data: schemaUpdateProduct) {
 
 export async function activeProduct(id: number) {
   try {
+    const session = await getServerSession(nextAuthOptions);
     const response = await fetch(
       `http://localhost/api/product/active?id=${id}`,
       {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
+          Authorization: `Bearer ${session?.token}`,
         },
       }
     );

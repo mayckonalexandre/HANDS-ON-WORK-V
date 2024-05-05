@@ -2,6 +2,7 @@ import path from "path";
 import fs from "fs";
 import moment from "moment";
 
+//função que cria caminho para salvar logs
 export function CreateLogPath() {
   const logPath = path.join(__dirname, "./../logs");
   if (!fs.existsSync(logPath)) {

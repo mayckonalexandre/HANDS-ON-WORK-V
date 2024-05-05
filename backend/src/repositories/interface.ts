@@ -3,6 +3,8 @@ import { Marcas } from "../entity/brands";
 import { Produto } from "../entity/products";
 import { Usuario } from "../entity/user";
 
+//Interfaces com as tipagens de cada class
+
 export interface IUserRepository {
   getUserById: (id: number) => Promise<Usuario | null>;
   getUserByEmail: (email: string) => Promise<Usuario | null>;

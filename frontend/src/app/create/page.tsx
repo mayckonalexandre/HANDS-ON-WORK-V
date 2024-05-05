@@ -7,6 +7,7 @@ import { useForm } from "react-hook-form";
 import z from "zod";
 import { Button } from "@/components/button";
 import { GoToBack } from "@/components/go-to-back";
+import { useRouter } from "next/navigation";
 
 const schemaChangePassword = z
   .object({
@@ -50,6 +51,7 @@ export default function SignUpPage() {
   const handleClickShowNewPassword = () => setShowNewPassword((show) => !show);
   const handleClickShowConfirmPassword = () =>
     setShowConfirmPassword((show) => !show);
+  const router = useRouter()
 
   async function formSubmit(data: schema) {
     try {

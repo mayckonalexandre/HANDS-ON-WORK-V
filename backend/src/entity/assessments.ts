@@ -8,6 +8,7 @@ import {
 import { Usuario } from "./user"; // Importe a entidade Usuario
 import { Produto } from "./products";
 
+//Entidade Avaliações
 @Entity()
 export class Avaliacoes {
   @PrimaryGeneratedColumn()

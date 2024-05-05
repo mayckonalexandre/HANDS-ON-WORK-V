@@ -2,6 +2,7 @@ import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import { IUsefulForAuthentication } from "./interfaces";
 
+//Class com funções auxiliares
 class UsefulForAuthentication implements IUsefulForAuthentication {
   generateHashPassword = async (password: string) =>
     await bcrypt.hash(password, 10);

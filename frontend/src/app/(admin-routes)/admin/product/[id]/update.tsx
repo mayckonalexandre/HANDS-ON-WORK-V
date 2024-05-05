@@ -63,6 +63,7 @@ export function UpdateProduct(props: IUpdateProductProps) {
     if (product.ingredientes) setValue("ingredientes", product.ingredientes);
     setValue("preco", product.preco);
     setValue("preco_promocional", product.preco_promocional);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const update = async (data: schemaUpdateProduct) => {
@@ -191,19 +192,6 @@ export function UpdateProduct(props: IUpdateProductProps) {
           </span>
         </div>
 
-        {/* <div className="mb-4">
-          <label className="block text-sm font-medium text-gray-700">
-            Imagem
-          </label>
-          <input
-            type="file"
-            className="mt-1 p-2 border border-gray-300 rounded-md w-full"
-            onChange={(event) =>
-              setFile(event.target.files ? event.target.files[0] : null)
-            }
-          />
-        </div> */}
-
         <div className="mb-4">
           <label className="block text-sm font-medium text-gray-700">
             Preço
@@ -255,7 +243,7 @@ export function UpdateProduct(props: IUpdateProductProps) {
         </div>
       </div>
 
-      <Button label="Cadastrar Produto" />
+      <Button label="Atualizar" />
     </form>
   );
 }
