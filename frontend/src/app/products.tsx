@@ -253,7 +253,7 @@ export function Products(props: IProductsProps) {
                       <a
                         className="mt-4 w-full block bg-black hover:bg-gray-900 text-white text-center py-2 rounded-md transition duration-300"
                         target="_blank"
-                        href="https://wa.me/5547996182649?text=Gostaria%20de%20fazer%20um%20pedido"
+                        href="https://wa.me/5547999999999?text=Gostaria%20de%20fazer%20um%20pedido"
                       >
                         Comprar
                       </a>
