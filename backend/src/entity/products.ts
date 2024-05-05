@@ -15,9 +15,6 @@ export class Produto {
   genero: string;
 
   @Column({ type: "varchar", length: 90 })
-  categoria: string;
-
-  @Column({ type: "varchar", length: 90 })
   marca: string;
 
   @Column({ type: "varchar", length: 10, nullable: true })
@@ -31,9 +28,6 @@ export class Produto {
 
   @Column({ type: "text" })
   imagem: string;
-
-  @Column({ type: "varchar", length: 15, nullable: true })
-  validade: string | null;
 
   @Column({ type: "decimal", precision: 10, scale: 2 })
   preco: number;

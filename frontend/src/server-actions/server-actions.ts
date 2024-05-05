@@ -1,6 +1,7 @@
 "use server";
 
-import { schemaNewProducts } from "@/app/(admin-routes)/admin/product/[id]/newProduct";
+import { schemaUpdateProduct } from "@/app/(admin-routes)/admin/product/[id]/update";
+import { schemaNewProducts } from "@/app/(admin-routes)/admin/product/newProduct";
 import { revalidatePath } from "next/cache";
 
 export type IResponse = {
@@ -11,6 +12,12 @@ export type IResponse = {
 export async function getProducts() {
   return await (
     await fetch("http://localhost/api/products", { cache: "no-cache" })
+  ).json();
+}
+
+export async function getAllProducts() {
+  return await (
+    await fetch("http://localhost/api/products/all", { cache: "no-cache" })
   ).json();
 }
 
@@ -64,13 +71,54 @@ export async function createNewProduct(data: FormData) {
 
     revalidatePath("/");
 
-    console.log(res);
-
     return {
       success: true,
-      message: `Produdo cadastrado com sucesso, ID: ${res}`,
+      message: `Produdo cadastrado com sucesso, ID: ${res.id}`,
     };
+  } catch (error) {
+    console.log(error);
+    return { success: false, message: "Erro ao realizar a requisição." };
+  }
+}
 
+export async function updateProduct(data: schemaUpdateProduct) {
+  try {
+    const response = await fetch("http://localhost/api/product/", {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+
+    const res = await response.json();
+
+    revalidatePath("/");
+
+    return { success: true, message: res.message };
+  } catch (error) {
+    console.log(error);
+    return { success: false, message: "Erro ao realizar a requisição." };
+  }
+}
+
+export async function activeProduct(id: number) {
+  try {
+    const response = await fetch(
+      `http://localhost/api/product/active?id=${id}`,
+      {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+
+    const res = await response.json();
+
+    revalidatePath("/");
+
+    return { success: true, message: res.message };
   } catch (error) {
     console.log(error);
     return { success: false, message: "Erro ao realizar a requisição." };

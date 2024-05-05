@@ -1,0 +1,6108 @@
+
+Request: GET /api/products at Sat May 04 2024 19:15:43 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 2,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:46",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:58",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian 
+...
+Response: 200 11.016 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:15:43 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 16.762 ms 
+
+Request: GET /image/img1.png at Sat May 04 2024 19:15:44 GMT-0300, IP: ::1, User Agent: node
+Response: 200 4.813 ms 
+
+Request: GET /image/boss.png at Sat May 04 2024 19:15:44 GMT-0300, IP: ::1, User Agent: node
+Response: 200 8.807 ms 
+
+Request: GET /image/212.png at Sat May 04 2024 19:15:44 GMT-0300, IP: ::1, User Agent: node
+Response: 200 3.967 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 19:15:56 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 2,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:46",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:58",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian 
+...
+Response: 200 4.229 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:15:56 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 13.415 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:15:59 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 4.946 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:16:19 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "Mayckon Alexandre Camilo",
+	"descricao": "Hugo Boss Bottled Night Eau de Toilette, Hugo Boss Boss Bottled",
+	"genero": "Masculino",
+	"categoria": "1",
+	"marca": "teste",
+	"quantidade": "100 Ml",
+	"observacao": "1",
+	"ingredientes": "1",
+	"validade": "1",
+	"preco": "389",
+	"preco_promocional": "354.99",
+	"ativo": "1"
+}
+Response Body:
+11
+Response: 200 21.012 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:16:51 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 1.709 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:16:53 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "Mayckon Alexandre Camilo",
+	"descricao": "Hugo Boss Bottled Night Eau de Toilette, Hugo Boss Boss Bottled",
+	"genero": "Masculino",
+	"categoria": "1",
+	"marca": "teste",
+	"quantidade": "100 Ml",
+	"observacao": "1",
+	"ingredientes": "1",
+	"validade": "1",
+	"preco": "389",
+	"preco_promocional": "354.99",
+	"ativo": "1"
+}
+Response Body:
+12
+Response: 200 7.210 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:17:44 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 10.656 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:17:49 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 1.719 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:17:51 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "Mayckon Alexandre Camilo",
+	"descricao": "Hugo Boss Bottled Night Eau de Toilette, Hugo Boss Boss Bottled",
+	"genero": "Masculino",
+	"categoria": "1",
+	"marca": "teste",
+	"quantidade": "100 Ml",
+	"observacao": "1",
+	"ingredientes": "1",
+	"validade": "1",
+	"preco": "389",
+	"preco_promocional": "354.99",
+	"ativo": "1"
+}
+Response Body:
+{
+	"id": 13
+}
+Response: 200 22.258 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:18:15 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 2.814 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:18:16 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "Mayckon Alexandre Camilo",
+	"descricao": "Hugo Boss Bottled Night Eau de Toilette, Hugo Boss Boss Bottled",
+	"genero": "Masculino",
+	"categoria": "1",
+	"marca": "teste",
+	"quantidade": "100 Ml",
+	"observacao": "1",
+	"ingredientes": "1",
+	"validade": "1",
+	"preco": "389",
+	"preco_promocional": "354.99",
+	"ativo": "1"
+}
+Response Body:
+{
+	"id": 14
+}
+Response: 200 7.527 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:18:32 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 2.111 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:18:33 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "Mayckon Alexandre Camilo",
+	"descricao": "Hugo Boss Bottled Night Eau de Toilette, Hugo Boss Boss Bottled",
+	"genero": "Masculino",
+	"categoria": "1",
+	"marca": "teste",
+	"quantidade": "100 Ml",
+	"observacao": "1",
+	"ingredientes": "1",
+	"validade": "1",
+	"preco": "389",
+	"preco_promocional": "354.99",
+	"ativo": "1"
+}
+Response Body:
+{
+	"id": 15
+}
+Response: 200 6.939 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:18:49 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 1.746 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:18:50 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "Mayckon Alexandre Camilo",
+	"descricao": "Hugo Boss Bottled Night Eau de Toilette, Hugo Boss Boss Bottled",
+	"genero": "Masculino",
+	"categoria": "1",
+	"marca": "teste",
+	"quantidade": "100 Ml",
+	"observacao": "1",
+	"ingredientes": "1",
+	"validade": "1",
+	"preco": "389",
+	"preco_promocional": "354.99",
+	"ativo": "1"
+}
+Response Body:
+{
+	"id": 16
+}
+Response: 200 8.803 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:19:29 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "Mayckon Alexandre Camilo",
+	"descricao": "Hugo Boss Bottled Night Eau de Toilette, Hugo Boss Boss Bottled",
+	"genero": "Masculino",
+	"categoria": "1",
+	"marca": "teste",
+	"quantidade": "100 Ml",
+	"observacao": "1",
+	"ingredientes": "1",
+	"validade": "1",
+	"preco": "389",
+	"preco_promocional": "354.99",
+	"ativo": "1"
+}
+Response Body:
+{
+	"id": 17
+}
+Response: 200 12.080 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:20:46 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 1.335 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:21:08 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 2.353 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:22:37 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 10.199 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:23:53 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 3.131 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:24:20 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "mayckon",
+	"descricao": "Hugo Boss Bottled Night Eau de Toilette, Hugo Boss Boss Bottled",
+	"genero": "Masculino",
+	"categoria": "1",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"validade": "",
+	"preco": "389",
+	"ativo": "1"
+}
+Response Body:
+{
+	"id": 18
+}
+Response: 200 26.960 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:25:32 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 1.348 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:25:55 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 1.397 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:26:00 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 1.190 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:26:17 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "mayckon",
+	"descricao": "Hugo Boss Bottled Night Eau de Toilette, Hugo Boss Boss Bottled",
+	"genero": "Masculino",
+	"categoria": "1",
+	"marca": "teste",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"validade": "",
+	"preco": "389",
+	"ativo": "1"
+}
+Response Body:
+{
+	"id": 19
+}
+Response: 200 7.610 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:26:45 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 2.276 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:26:46 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "mayckon",
+	"descricao": "Hugo Boss Bottled Night Eau de Toilette, Hugo Boss Boss Bottled",
+	"genero": "Masculino",
+	"categoria": "1",
+	"marca": "teste",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"validade": "",
+	"preco": "389",
+	"ativo": "1"
+}
+Response Body:
+{
+	"id": 20
+}
+Response: 200 6.941 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:27:04 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 2.012 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:27:21 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 2.536 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:27:38 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 9.156 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:27:42 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "mayckon",
+	"descricao": "Hugo Boss Bottled Night Eau de Toilette, Hugo Boss Boss Bottled",
+	"genero": "Masculino",
+	"categoria": "1",
+	"marca": "teste",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"validade": "",
+	"preco": "389",
+	"ativo": "1"
+}
+Response Body:
+{
+	"id": 21
+}
+Response: 200 6.985 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:29:33 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 12.745 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:29:33 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 3.200 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:29:34 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "mayckon",
+	"descricao": "Hugo Boss Bottled Night Eau de Toilette, Hugo Boss Boss Bottled",
+	"genero": "Masculino",
+	"categoria": "1",
+	"marca": "teste",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"validade": "",
+	"preco": "389",
+	"ativo": "1"
+}
+Response Body:
+{
+	"id": 22
+}
+Response: 201 20.925 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:29:34 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 1.214 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 19:29:47 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 2,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:46",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:58",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian 
+...
+Response: 200 7.782 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:29:47 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 17.105 ms 
+
+Request: GET /image/img1.png at Sat May 04 2024 19:29:48 GMT-0300, IP: ::1, User Agent: node
+Response: 200 6.985 ms 
+
+Request: GET /image/boss.png at Sat May 04 2024 19:29:48 GMT-0300, IP: ::1, User Agent: node
+Response: 200 4.438 ms 
+
+Request: GET /image/212.png at Sat May 04 2024 19:29:48 GMT-0300, IP: ::1, User Agent: node
+Response: 200 1.428 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 19:30:14 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 2,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:46",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:58",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian 
+...
+Response: 200 3.247 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:30:14 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 6.660 ms 
+
+Request: GET /api/products at Sat May 04 2024 19:33:07 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 2,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:46",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:58",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian 
+...
+Response: 200 5.200 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:33:07 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 9.150 ms 
+
+Request: GET /image/img1.png at Sat May 04 2024 19:33:07 GMT-0300, IP: ::1, User Agent: node
+Response: 200 1.215 ms 
+
+Request: GET /image/boss.png at Sat May 04 2024 19:33:07 GMT-0300, IP: ::1, User Agent: node
+Response: 200 1.310 ms 
+
+Request: GET /image/212.png at Sat May 04 2024 19:33:07 GMT-0300, IP: ::1, User Agent: node
+Response: 200 7.940 ms 
+
+Request: GET /api/products at Sat May 04 2024 19:33:14 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 2,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:46",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:58",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian 
+...
+Response: 200 2.438 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:33:14 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 6.578 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 19:35:31 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 2,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:46",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:58",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian 
+...
+Response: 200 1.860 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:35:31 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 4.490 ms 
+
+Request: GET /image/img1.png at Sat May 04 2024 19:35:31 GMT-0300, IP: ::1, User Agent: node
+Response: 200 3.065 ms 
+
+Request: GET /image/boss.png at Sat May 04 2024 19:35:31 GMT-0300, IP: ::1, User Agent: node
+Response: 200 4.513 ms 
+
+Request: GET /image/212.png at Sat May 04 2024 19:35:31 GMT-0300, IP: ::1, User Agent: node
+Response: 200 1.628 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:35:42 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 1.451 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:36:23 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	}
+]
+Response: 200 1.382 ms 
+
+Request: POST /api/brand at Sat May 04 2024 19:36:33 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "31231312321",
+	"ativo": "1"
+}
+Response Body:
+6
+Response: 201 11.932 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:36:33 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	},
+	{
+		"id": 6,
+		"nome": "31231312321",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:36",
+		"alterado": null
+	}
+]
+Response: 200 1.531 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:36:59 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	},
+	{
+		"id": 6,
+		"nome": "31231312321",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:36",
+		"alterado": null
+	}
+]
+Response: 200 1.692 ms 
+
+Request: POST /api/brand at Sat May 04 2024 19:37:02 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "31231312321",
+	"ativo": "1"
+}
+Response Body:
+7
+Response: 201 4.016 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:37:02 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	},
+	{
+		"id": 6,
+		"nome": "31231312321",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:36",
+		"alterado": null
+	},
+	{
+		"id": 7,
+		"nome": "31231312321",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:37",
+		"alterado": null
+	}
+]
+Response: 200 1.285 ms 
+
+Request: GET /api/products at Sat May 04 2024 19:37:22 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 2,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:46",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:58",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian 
+...
+Response: 200 3.366 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:37:22 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	},
+	{
+		"id": 6,
+		"nome": "31231312321",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:36",
+		"alterado": null
+	},
+	{
+		"id": 7,
+		"nome": "31231312321",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:37",
+		"alterado": null
+	}
+]
+Response: 200 8.153 ms 
+
+Request: GET /image/img1.png at Sat May 04 2024 19:37:22 GMT-0300, IP: ::1, User Agent: node
+Response: 200 2.147 ms 
+
+Request: GET /image/boss.png at Sat May 04 2024 19:37:22 GMT-0300, IP: ::1, User Agent: node
+Response: 200 3.599 ms 
+
+Request: GET /image/212.png at Sat May 04 2024 19:37:22 GMT-0300, IP: ::1, User Agent: node
+Response: 200 1.773 ms 
+
+Request: GET /api/products at Sat May 04 2024 19:37:26 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 2,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:46",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian Dior Eau de Toilette 100ml",
+		"genero": "Masculino",
+		"categoria": "Calçados",
+		"marca": "Dior",
+		"quantidade": "100ml",
+		"observacao": "Produto de alta qualidade",
+		"ingredientes": "Aerossol, Líquido",
+		"imagem": "img1.png",
+		"validade": null,
+		"preco": "695.89",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240502 - 22:58",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Sauvage",
+		"descricao": "Sauvage Masculino de Christian 
+...
+Response: 200 1.896 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:37:26 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Dior",
+		"ativo": 1,
+		"cadastrado": "20240503 - 23:08",
+		"alterado": null
+	},
+	{
+		"id": 2,
+		"nome": "Hugo Boss",
+		"ativo": 1,
+		"cadastrado": "20240504 - 00:01",
+		"alterado": null
+	},
+	{
+		"id": 3,
+		"nome": "teste",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 4,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 09:40",
+		"alterado": null
+	},
+	{
+		"id": 5,
+		"nome": "fsdfsdfsdfs",
+		"ativo": 1,
+		"cadastrado": "20240504 - 18:53",
+		"alterado": null
+	},
+	{
+		"id": 6,
+		"nome": "31231312321",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:36",
+		"alterado": null
+	},
+	{
+		"id": 7,
+		"nome": "31231312321",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:37",
+		"alterado": null
+	}
+]
+Response: 200 6.207 ms 
+
+Request: GET /api/products at Sat May 04 2024 19:44:50 GMT-0300, IP: ::1, User Agent: node
+Response: 200 15.195 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:44:50 GMT-0300, IP: ::1, User Agent: node
+Response: 200 15.228 ms 
+
+Request: GET /api/products at Sat May 04 2024 19:46:55 GMT-0300, IP: ::1, User Agent: node
+Response: 200 15.608 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:46:55 GMT-0300, IP: ::1, User Agent: node
+Response: 200 20.006 ms 
+
+Request: GET /api/products at Sat May 04 2024 19:47:02 GMT-0300, IP: ::1, User Agent: node
+Response: 200 4.094 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:47:02 GMT-0300, IP: ::1, User Agent: node
+Response: 200 7.543 ms 
+
+Request: GET /api/products at Sat May 04 2024 19:47:08 GMT-0300, IP: ::1, User Agent: node
+Response: 200 2.114 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:47:08 GMT-0300, IP: ::1, User Agent: node
+Response: 200 3.026 ms 
+
+Request: GET /api/products at Sat May 04 2024 19:47:13 GMT-0300, IP: ::1, User Agent: node
+Response: 200 1.890 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:47:13 GMT-0300, IP: ::1, User Agent: node
+Response: 200 2.331 ms 
+
+Request: GET /api/products at Sat May 04 2024 19:47:17 GMT-0300, IP: ::1, User Agent: node
+Response: 200 7.573 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:47:17 GMT-0300, IP: ::1, User Agent: node
+Response: 200 5.912 ms 
+
+Request: GET /api/products at Sat May 04 2024 19:47:19 GMT-0300, IP: ::1, User Agent: node
+Response: 200 1.216 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:47:19 GMT-0300, IP: ::1, User Agent: node
+Response: 200 2.469 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 19:47:25 GMT-0300, IP: ::1, User Agent: node
+Response: 200 1.860 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:47:25 GMT-0300, IP: ::1, User Agent: node
+Response: 200 2.509 ms 
+
+Request: POST /api/auth at Sat May 04 2024 19:47:32 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"email": "mayckon@gmail.com",
+	"password": "123"
+}
+Response Body:
+{
+	"message": "Credenciais inválidas."
+}
+Response: 401 27.777 ms 
+
+Request: POST /api/auth at Sat May 04 2024 19:47:37 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"email": "mayckon@gmail.com",
+	"password": "teste123"
+}
+Response Body:
+{
+	"message": "Credenciais inválidas."
+}
+Response: 401 4.793 ms 
+
+Request: POST /api/auth at Sat May 04 2024 19:49:07 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"email": "mayckon@gmail.com",
+	"password": "123"
+}
+Response Body:
+{
+	"message": "Credenciais inválidas."
+}
+Response: 401 39.766 ms 
+
+Request: POST /api/auth at Sat May 04 2024 19:49:43 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"email": "teste@gmail.com",
+	"password": "123"
+}
+Response Body:
+{
+	"id": 1,
+	"name": "Mayckon",
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzE0ODYyOTgzLCJleHAiOjE3MTU0Njc3ODN9.8MUA50UsLhzDFtwX0ucpnh7-0kGU1lMio_rLKZmqJrk",
+	"role": "admin"
+}
+Response: 200 7.921 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 19:49:43 GMT-0300, IP: ::1, User Agent: node
+Response: 200 4.071 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:49:43 GMT-0300, IP: ::1, User Agent: node
+Response: 200 3.748 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:50:05 GMT-0300, IP: ::1, User Agent: node
+Response: 200 7.917 ms 
+
+Request: POST /api/brand at Sat May 04 2024 19:50:36 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "Carolina Herrera",
+	"ativo": "1"
+}
+Response Body:
+1
+Response: 201 23.381 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:50:36 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 8.095 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:50:50 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"preco": "0",
+	"ativo": "1"
+}
+Response Body:
+{
+	"id": 1
+}
+Response: 201 13.531 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:50:50 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.367 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:52:00 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.167 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:52:36 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.818 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:52:42 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 17.070 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:53:00 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.068 ms 
+
+Request: GET /api/brands at Sat May 04 2024 19:53:09 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.258 ms 
+
+Request: POST /api/product at Sat May 04 2024 19:53:24 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"preco": "NaN",
+	"ativo": "1"
+}
+Response Body:
+{
+	"message": "Unknown column 'NaN' in 'field list'"
+}
+Response: 400 27.650 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:04:05 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.720 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:04:59 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.431 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:04:59 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.069 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:05:59 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.524 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:06:25 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.573 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:06:28 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.270 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:07:04 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.321 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:07:07 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.376 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:07:58 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 6.456 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:07:58 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 15.797 ms 
+
+Request: GET /api/products at Sat May 04 2024 20:08:00 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.017 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:08:00 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.553 ms 
+
+Request: GET /api/products at Sat May 04 2024 20:08:17 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.463 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:08:17 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.498 ms 
+
+Request: GET /api/products at Sat May 04 2024 20:08:42 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.688 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:08:42 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 8.131 ms 
+
+Request: GET /api/products at Sat May 04 2024 20:08:45 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.368 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:08:45 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.662 ms 
+
+Request: GET /api/products at Sat May 04 2024 20:08:47 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.361 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:08:47 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 6.267 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:08:53 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.551 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:08:53 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.871 ms 
+
+Request: GET /api/products at Sat May 04 2024 20:08:56 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.424 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:08:56 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.965 ms 
+
+Request: GET /api/products at Sat May 04 2024 20:09:08 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.049 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:09:08 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.605 ms 
+
+Request: GET /api/products at Sat May 04 2024 20:09:17 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.290 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:09:17 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.392 ms 
+
+Request: GET /api/products at Sat May 04 2024 20:09:18 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.465 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:09:18 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 5.502 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:09:23 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.949 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:09:23 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 5.578 ms 
+
+Request: POST /api/auth at Sat May 04 2024 20:09:28 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"email": "teste@gmail.com",
+	"password": "123"
+}
+Response Body:
+{
+	"id": 1,
+	"name": "Mayckon",
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzE0ODY0MTY4LCJleHAiOjE3MTU0Njg5Njh9.w4I4ggRJKElxu0bMIjuw3cSUReVPV3yA32M3Qj3Roas",
+	"role": "admin"
+}
+Response: 200 7.734 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:09:28 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.394 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:09:28 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.954 ms 
+
+Request: GET /image/212.png at Sat May 04 2024 20:09:28 GMT-0300, IP: ::1, User Agent: node
+Response: 200 7.627 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:09:34 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.206 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:09:34 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.473 ms 
+
+Request: PUT /api/product/active?id=1 at Sat May 04 2024 20:09:44 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"message": "Produto alteado para Desativado"
+}
+Response: 200 9.536 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:09:44 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 0,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.344 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:09:44 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.968 ms 
+
+Request: GET /api/products at Sat May 04 2024 20:09:51 GMT-0300, IP: ::1, User Agent: node
+Response: 200 1.252 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:09:51 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.889 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:09:53 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 0,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.275 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:09:53 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.113 ms 
+
+Request: PUT /api/product/active?id=1 at Sat May 04 2024 20:09:53 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"message": "Produto alteado para Ativo"
+}
+Response: 200 5.293 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:09:53 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.126 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:09:53 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 6.213 ms 
+
+Request: GET /api/products at Sat May 04 2024 20:09:55 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.297 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:09:55 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.935 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:09:57 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.337 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:09:57 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 5.223 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:10:30 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.614 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:10:30 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 5.516 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:11:38 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.410 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:11:38 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.662 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:11:40 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.062 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:11:40 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.672 ms 
+
+Request: GET /image/212.png at Sat May 04 2024 20:11:40 GMT-0300, IP: ::1, User Agent: node
+Response: 200 2.507 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:13:44 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.789 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:13:44 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.670 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:15:06 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.092 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:15:06 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.935 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:15:23 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.490 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:15:23 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.319 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:15:26 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.556 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:15:26 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.936 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:15:56 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 5.925 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:15:56 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 6.311 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:16:35 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.887 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:16:35 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 5.697 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:18:36 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.865 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:18:36 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.436 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:18:41 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.298 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:18:41 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.135 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:18:54 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.547 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:18:54 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.770 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:19:11 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.379 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:19:11 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.839 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:19:20 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.899 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:19:20 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.637 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:19:57 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.562 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:19:57 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.342 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:20:06 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.608 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:20:06 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.305 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:20:40 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.446 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:20:40 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.394 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:21:30 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.594 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:21:30 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.121 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:21:49 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.740 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:21:49 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.664 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:21:54 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.579 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:21:54 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.822 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:22:03 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.530 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:22:03 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.621 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:22:06 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.162 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:22:06 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.837 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:22:24 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.663 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:22:24 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.445 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:22:41 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.608 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:22:41 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.211 ms 
+
+Request: GET /image/212.png at Sat May 04 2024 20:22:41 GMT-0300, IP: ::1, User Agent: node
+Response: 200 2.625 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:23:43 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.962 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:23:43 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.663 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:23:48 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.718 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:23:48 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.221 ms 
+
+Request: GET /image/212.png at Sat May 04 2024 20:23:48 GMT-0300, IP: ::1, User Agent: node
+Response: 200 1.713 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:24:05 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.561 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:24:05 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.486 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:24:47 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.088 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:24:47 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 5.333 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:25:39 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "0.00",
+		"preco_promocional": null,
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.186 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:25:39 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 5.794 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:25:41 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 3.892 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:25:41 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.477 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:27:58 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 1.780 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:27:58 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.138 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:28:47 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.617 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:28:47 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.914 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:29:02 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.341 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:29:02 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.125 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:29:21 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 5.214 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:29:21 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 5.842 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:29:24 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 1.536 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:29:24 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.433 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:29:56 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.161 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:29:56 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.901 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:30:06 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.919 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:30:06 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.036 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:30:26 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 1.658 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:30:26 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.696 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:31:27 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.947 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:31:27 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 4.146 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:31:33 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.265 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:31:33 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.356 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:32:52 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.303 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:32:52 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.289 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:33:27 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 3.441 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:33:27 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.893 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:34:25 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.393 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:34:25 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.105 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:34:33 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 1.533 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:34:33 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.427 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:35:07 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 1.617 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:35:07 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.765 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:35:36 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.399 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:35:36 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.253 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:35:43 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.170 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:35:43 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.463 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:44:45 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 13.349 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:44:45 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.379 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:45:03 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.242 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:45:03 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.097 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:45:05 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 1.753 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:45:05 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.315 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:46:24 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 1.919 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:46:24 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.583 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:46:34 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 3.441 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:46:34 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.011 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:47:47 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.716 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:47:47 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.608 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:49:03 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 16.069 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:49:03 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.372 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:49:17 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.229 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:49:17 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.508 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:49:19 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.551 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:49:19 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.498 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:49:54 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 5.244 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:49:54 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 8.388 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:51:14 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 28.238 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:51:14 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 7.691 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:51:14 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 5.491 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:51:14 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.895 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:51:17 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 7.753 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:51:17 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.927 ms 
+
+Request: PUT /api/product/ at Sat May 04 2024 20:51:24 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"preco": 300,
+	"preco_promocional": null,
+	"ativo": "1"
+}
+Response Body:
+{
+	"message": "Erro ao atualizar o produto.",
+	"error": "[\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"number\",\n    \"path\": [\n      \"preco\"\n    ],\n    \"message\": \"Expected string, received number\"\n  },\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"string\",\n    \"received\": \"null\",\n    \"path\": [\n      \"preco_promocional\"\n    ],\n    \"message\": \"Expected string, received null\"\n  }\n]"
+}
+Response: 400 13.344 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:51:24 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.069 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:51:24 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.677 ms 
+
+Request: PUT /api/product/ at Sat May 04 2024 20:52:38 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"preco": 300,
+	"preco_promocional": null,
+	"ativo": "1"
+}
+Response Body:
+{
+	"message": [
+		{
+			"code": "invalid_type",
+			"expected": "string",
+			"received": "number",
+			"path": [
+				"preco"
+			],
+			"message": "Expected string, received number"
+		},
+		{
+			"code": "invalid_type",
+			"expected": "string",
+			"received": "null",
+			"path": [
+				"preco_promocional"
+			],
+			"message": "Expected string, received null"
+		}
+	]
+}
+Response: 400 25.720 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:52:38 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 20.574 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:52:38 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 8.128 ms 
+
+Request: PUT /api/product/ at Sat May 04 2024 20:53:20 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"preco": 300,
+	"preco_promocional": null,
+	"ativo": "1"
+}
+Response Body:
+{
+	"message": [
+		{
+			"code": "invalid_type",
+			"expected": "string",
+			"received": "number",
+			"path": [
+				"preco"
+			],
+			"message": "Expected string, received number"
+		},
+		{
+			"code": "invalid_type",
+			"expected": "string",
+			"received": "null",
+			"path": [
+				"preco_promocional"
+			],
+			"message": "Expected string, received null"
+		}
+	]
+}
+Response: 400 9.202 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:53:20 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 4.248 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:53:20 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 6.067 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:54:34 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 2.271 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:54:34 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.833 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:54:52 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 7.021 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:54:52 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 6.254 ms 
+
+Request: PUT /api/product/ at Sat May 04 2024 20:55:21 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"preco": 300,
+	"preco_promocional": null,
+	"ativo": "1"
+}
+Response Body:
+{
+	"message": [
+		{
+			"code": "invalid_type",
+			"expected": "string",
+			"received": "null",
+			"path": [
+				"preco_promocional"
+			],
+			"message": "Expected string, received null"
+		}
+	]
+}
+Response: 400 25.274 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:55:21 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 9.813 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:55:21 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.526 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:56:25 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 3.389 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:56:25 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.111 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:56:44 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 1.593 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:56:44 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 1.738 ms 
+
+Request: PUT /api/product/ at Sat May 04 2024 20:57:16 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"preco": 300,
+	"preco_promocional": 0,
+	"ativo": "1"
+}
+Response Body:
+{
+	"message": [
+		{
+			"code": "invalid_type",
+			"expected": "string",
+			"received": "number",
+			"path": [
+				"preco_promocional"
+			],
+			"message": "Expected string, received number"
+		}
+	]
+}
+Response: 400 5.300 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:57:16 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 3.686 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:57:16 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 3.121 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:58:39 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 12.822 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:58:39 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.162 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:58:52 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "0.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": null
+}
+Response: 200 1.676 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:58:52 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.940 ms 
+
+Request: PUT /api/product/ at Sat May 04 2024 20:58:57 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"preco": 300,
+	"preco_promocional": null,
+	"ativo": "1"
+}
+Response Body:
+{
+	"message": "Produto atualizado com sucesso."
+}
+Response: 200 23.501 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:58:57 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "300.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": "20240504 - 20:58"
+}
+Response: 200 2.027 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:58:57 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 2.302 ms 
+
+Request: PUT /api/product/ at Sat May 04 2024 20:59:11 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"preco": 300,
+	"preco_promocional": 200,
+	"ativo": "1"
+}
+Response Body:
+{
+	"message": [
+		{
+			"code": "invalid_type",
+			"expected": "string",
+			"received": "number",
+			"path": [
+				"preco_promocional"
+			],
+			"message": "Expected string, received number"
+		}
+	]
+}
+Response: 400 10.205 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:59:11 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "300.00",
+	"preco_promocional": null,
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": "20240504 - 20:58"
+}
+Response: 200 4.265 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:59:11 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 14.374 ms 
+
+Request: PUT /api/product/ at Sat May 04 2024 20:59:39 GMT-0300, IP: ::1, User Agent: node
+Request Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"preco": 300,
+	"preco_promocional": 200,
+	"ativo": "1"
+}
+Response Body:
+{
+	"message": "Produto atualizado com sucesso."
+}
+Response: 200 50.015 ms 
+
+Request: GET /api/product?id=1 at Sat May 04 2024 20:59:39 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+{
+	"id": 1,
+	"nome": "212",
+	"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+	"genero": "Masculino",
+	"marca": "Carolina Herrera",
+	"quantidade": "100 Ml",
+	"observacao": "",
+	"ingredientes": "",
+	"imagem": "212.png",
+	"preco": "300.00",
+	"preco_promocional": "200.00",
+	"ativo": 1,
+	"cadastrado": "20240504 - 19:50",
+	"alterado": "20240504 - 20:59"
+}
+Response: 200 5.011 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:59:39 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 9.201 ms 
+
+Request: GET /api/products/all at Sat May 04 2024 20:59:51 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "300.00",
+		"preco_promocional": "200.00",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": "20240504 - 20:59"
+	}
+]
+Response: 200 3.719 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:59:51 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 7.032 ms 
+
+Request: GET /api/products at Sat May 04 2024 20:59:55 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "212",
+		"descricao": "Perfume masculino 212 Vip Black Carolina Herrera",
+		"genero": "Masculino",
+		"marca": "Carolina Herrera",
+		"quantidade": "100 Ml",
+		"observacao": "",
+		"ingredientes": "",
+		"imagem": "212.png",
+		"preco": "300.00",
+		"preco_promocional": "200.00",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": "20240504 - 20:59"
+	}
+]
+Response: 200 5.464 ms 
+
+Request: GET /api/brands at Sat May 04 2024 20:59:55 GMT-0300, IP: ::1, User Agent: node
+Response Body:
+[
+	{
+		"id": 1,
+		"nome": "Carolina Herrera",
+		"ativo": 1,
+		"cadastrado": "20240504 - 19:50",
+		"alterado": null
+	}
+]
+Response: 200 7.788 ms 
+
+Request: GET /image/212.png at Sat May 04 2024 20:59:55 GMT-0300, IP: ::1, User Agent: node
+Response: 200 5.220 ms 

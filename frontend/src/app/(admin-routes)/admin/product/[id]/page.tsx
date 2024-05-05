@@ -1,6 +1,5 @@
-import { NewProduct } from "./newProduct";
-import { createNewBrand, createNewProduct, getBrands } from "@/server-actions/server-actions";
-import { NewBrand } from "./newBrand";
+import { getBrands, updateProduct } from "@/server-actions/server-actions";
+import { UpdateProduct } from "./update";
 
 export default async function Page({ params }: { params: { id: string } }) {
   const { id } = params;
@@ -17,10 +16,11 @@ export default async function Page({ params }: { params: { id: string } }) {
 
   return (
     <main className="flex flex-col p-2.5 gap-2.5">
-      <div className="grid grid-cols-2 gap-2.5">
-        <NewBrand create={createNewBrand} />
-        <NewProduct product={product} brands={brands} create={createNewProduct} />
-      </div>
+      <UpdateProduct
+        brands={brands}
+        product={product}
+        updateProduct={updateProduct}
+      />
     </main>
   );
 }

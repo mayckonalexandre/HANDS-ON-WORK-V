@@ -4,8 +4,7 @@ import { useForm } from "react-hook-form";
 import z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Button } from "@/components/button";
-import { useRouter } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
+import { GoToBack } from "@/components/go-to-back";
 
 const schemaLogin = z.object({
   email: z.string().email("Email inválido.").trim(),
@@ -25,7 +24,6 @@ export default function Login() {
     handleSubmit,
     formState: { errors },
   } = useForm<schema>({ resolver: zodResolver(schemaLogin) });
-  const router = useRouter();
 
   const submit = async (data: schema) => {
     try {
@@ -54,12 +52,7 @@ export default function Login() {
         onSubmit={handleSubmit(submit)}
       >
         <div className="flex items-center gap-2.5 mb-4">
-          <span
-            onClick={() => router.back()}
-            className="border-2 rounded-lg cursor-pointer p-1.5 hover:bg-gray-300"
-          >
-            <ArrowLeft />
-          </span>
+          <GoToBack />
           <h1 className="text-2xl font-bold">Cadastre-se</h1>
         </div>
 

@@ -4,6 +4,7 @@ import { LogOut, UserRound } from "lucide-react";
 import Image from "next/image";
 import { signOut } from "next-auth/react";
 import { User } from "next-auth";
+import { GoToBack } from "./go-to-back";
 
 interface IHeaderProps {
   user?: User;
@@ -18,6 +19,7 @@ export function Header(props: IHeaderProps) {
           <Image src="/logo.png" alt="logo" fill className="rounded-lg" />
         </a>
         <div className="flex items-center gap-2.5">
+          <GoToBack />
           <a
             href="/admin"
             className="flex items-center gap-2.5 border-2 rounded-lg cursor-pointer p-1.5 hover:bg-gray-300"
@@ -26,6 +28,7 @@ export function Header(props: IHeaderProps) {
           </a>
           {user && (
             <span
+              title="Sair"
               onClick={() => signOut()}
               className="border-2 rounded-lg cursor-pointer p-1.5 hover:bg-gray-300"
             >

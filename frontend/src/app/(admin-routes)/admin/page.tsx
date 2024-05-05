@@ -1,19 +1,32 @@
 import { formattedPrice } from "@/app/util";
-import { getBrands, getProducts } from "@/server-actions/server-actions";
+import {
+  activeProduct,
+  getAllProducts,
+  getBrands,
+} from "@/server-actions/server-actions";
 import { IBrands } from "@/type/brands";
 import { IProducts } from "@/type/products";
 import moment from "moment";
 import Image from "next/image";
+import { ActiveProduct } from "./active-product";
 
 export default async function Page() {
   const [products, brands]: [IProducts[], IBrands[]] = await Promise.all([
-    getProducts(),
+    getAllProducts(),
     getBrands(),
   ]);
 
   return (
     <main className="flex flex-col gap-2.5 border-2 rounded-lg w-full p-2.5">
-      <h1 className="text-2xl font-semibold mb-4">Admin Page</h1>
+      <div className="flex items-center justify-between">
+        <h1 className="text-2xl font-semibold mb-4">Admin Page</h1>
+        <a
+          href={`/admin/product`}
+          className="bg-black hover:bg-gray-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        >
+          Novo Produto
+        </a>
+      </div>
 
       <div className="overflow-x-auto">
         <table className="table-auto w-full">
@@ -58,13 +71,15 @@ export default async function Page() {
                   <div className="flex items-center justify-center gap-2">
                     <a
                       href={`/admin/product/${product.id}`}
-                      className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md"
+                      className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md"
                     >
                       Editar
                     </a>
-                    <button className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md">
-                      Excluir
-                    </button>
+                    <ActiveProduct
+                      id={product.id}
+                      ativo={product.ativo}
+                      activeProduct={activeProduct}
+                    />
                   </div>
                 </td>
               </tr>

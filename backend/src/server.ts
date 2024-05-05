@@ -6,6 +6,7 @@ import morganBody from "morgan-body";
 import { router } from "./route";
 import { errorMiddleware } from "./middleware/error";
 import { myDataSource } from "./config/db/db";
+import { CreateLogPath } from "./config/log-path";
 
 myDataSource
   .initialize()
@@ -19,14 +20,19 @@ myDataSource
 const port = 80;
 
 const app = express();
+
+morganBody(app, {
+  noColors: true,
+  stream: CreateLogPath(),
+});
+
+morganBody(app);
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use("/api", router);
 app.use(errorMiddleware);
-morganBody(app, {
-  noColors: true,
-});
 
 app.use("/image", express.static("public"));
 app.use((req, res) =>

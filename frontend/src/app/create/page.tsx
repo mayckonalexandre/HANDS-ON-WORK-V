@@ -1,12 +1,12 @@
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
-import { ArrowLeft, Eye, EyeOff } from "lucide-react";
+import { Eye, EyeOff } from "lucide-react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import z from "zod";
-import { useRouter } from "next/navigation";
 import { Button } from "@/components/button";
+import { GoToBack } from "@/components/go-to-back";
 
 const schemaChangePassword = z
   .object({
@@ -50,7 +50,6 @@ export default function SignUpPage() {
   const handleClickShowNewPassword = () => setShowNewPassword((show) => !show);
   const handleClickShowConfirmPassword = () =>
     setShowConfirmPassword((show) => !show);
-  const router = useRouter();
 
   async function formSubmit(data: schema) {
     try {
@@ -86,12 +85,7 @@ export default function SignUpPage() {
         className="w-full max-w-md shadow-md rounded-lg px-8 pt-6 pb-8 mb-4"
       >
         <div className="flex items-center gap-2.5 mb-4">
-          <span
-            onClick={() => router.back()}
-            className="border-2 rounded-lg cursor-pointer p-1.5 hover:bg-gray-300"
-          >
-            <ArrowLeft />
-          </span>
+          <GoToBack />
           <h1 className="text-2xl font-bold">Cadastre-se</h1>
         </div>
 

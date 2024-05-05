@@ -188,68 +188,76 @@ export function Products(props: IProductsProps) {
                       <div className="rating flex gap-1">
                         <input
                           type="radio"
-                          id="star5"
-                          name="rating"
+                          id={`star5-${product.id}`}
+                          name={`rating-${product.id}`}
                           value="5"
                         />
-                        <label htmlFor="star5" title="5 stars">
+                        <label htmlFor={`star5-${product.id}`} title="5 stars">
                           &#9733;
                         </label>
                         <input
                           type="radio"
-                          id="star4"
-                          name="rating"
+                          id={`star4-${product.id}`}
+                          name={`rating-${product.id}`}
                           value="4"
                         />
-                        <label htmlFor="star4" title="4 stars">
+                        <label htmlFor={`star4-${product.id}`} title="4 stars">
                           &#9733;
                         </label>
                         <input
                           type="radio"
-                          id="star3"
-                          name="rating"
+                          id={`star3-${product.id}`}
+                          name={`rating-${product.id}`}
                           value="3"
                         />
-                        <label htmlFor="star3" title="3 stars">
+                        <label htmlFor={`star3-${product.id}`} title="3 stars">
                           &#9733;
                         </label>
                         <input
                           type="radio"
-                          id="star2"
-                          name="rating"
+                          id={`star2-${product.id}`}
+                          name={`rating-${product.id}`}
                           value="2"
                         />
-                        <label htmlFor="star2" title="2 stars">
+                        <label htmlFor={`star2-${product.id}`} title="2 stars">
                           &#9733;
                         </label>
                         <input
                           type="radio"
-                          id="star1"
-                          name="rating"
+                          id={`star1-${product.id}`}
+                          name={`rating-${product.id}`}
                           value="1"
                         />
-                        <label htmlFor="star1" title="1 star">
+                        <label htmlFor={`star1-${product.id}`} title="1 star">
                           &#9733;
                         </label>
                       </div>
 
-                      <div className="ml-2 font-bold">
+                      <div
+                        className={`font-bold ${
+                          product.preco_promocional ? "hidden" : ""
+                        }`}
+                      >
                         {formattedPrice(product.preco)}
                       </div>
 
                       {product.preco_promocional && (
-                        <span className="line-through text-gray-500">
+                        <div className="flex gap-2.5 font-bold">
                           {formattedPrice(product.preco_promocional)}
-                        </span>
+                          <span className="line-through text-gray-500">
+                            {formattedPrice(product.preco)}
+                          </span>
+                        </div>
                       )}
+
+                      <a
+                        className="mt-4 w-full block bg-black hover:bg-gray-900 text-white text-center py-2 rounded-md transition duration-300"
+                        target="_blank"
+                        href="https://wa.me/5547996182649?text=Gostaria%20de%20fazer%20um%20pedido"
+                      >
+                        Comprar
+                      </a>
                     </div>
-                    <a
-                      className="mt-4 w-full block bg-black hover:bg-gray-900 text-white text-center py-2 rounded-md transition duration-300"
-                      target="_blank"
-                      href="https://wa.me/5547996182649?text=Gostaria%20de%20fazer%20um%20pedido"
-                    >
-                      Comprar
-                    </a>
                   </div>
                 </div>
               ))}

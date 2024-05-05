@@ -6,3 +6,5 @@ tmp/
 temp/
 public
 dist
+.gitignore
+.env
